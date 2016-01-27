@@ -16,6 +16,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
+        top: 40px;
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -28,33 +29,96 @@ html {
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+header {
+  background: #f5b335;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+}
+
+/*add this on scroll down*/
+.nav-up {
+  top: -40px; 
+}
+
+.nav-fix {
+  top: 0;
+}
+
+.vid-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+.vid-section p {
+  width: 800px;
 }
 
-.services-section {
+.faq-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
+    /*text-align: center;*/
     background: #fff;
 }
 
-.contact-section {
+.faq-section li {
+  list-style-type: none;
+}
+
+.lesson-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    /*text-align: center;*/
+    background: #fff;
+}
+
+.lesson-section li {
+  list-style-type: none;
+}
+
+.lesson-section a {
+  float: left;
+  display: block;
+  margin: 10px;
+  margin-left: 10px;
+}
+.lesson-section li span {
+  margin-left: 72px;
+  display: block;
+}
+
+.resource-section {
+    height: 50%;
+    padding-top: 150px;
+    /*text-align: center;*/
+    background: #fff;
+}
+
+.resource-section p {
+  margin-left: 50px;
+  width: 800px;
+}
+
+.sign-up-section {
+    height: 70%;
+    padding-top: 150px;
+    /*text-align: center;*/
+    background: #fff;
+
+}
+
+.sign-up-section form {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sign-up-section #exampleInputEmail {
+  width: 400px;
 }
