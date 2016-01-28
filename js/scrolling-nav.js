@@ -17,8 +17,8 @@ $(function() {
         event.preventDefault();
     });
 
-    // dropdown logic
-    $('li.dropdown-parents').on('click', function() {
+    //faq dropdown logic
+    $('li').on('click', function() {
         if ($('.answer > p', this).hasClass('dropdown-hidden')) {
             $('.answer > p', this).addClass('dropdown-visible').removeClass('dropdown-hidden');
         } else {
