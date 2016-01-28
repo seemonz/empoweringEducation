@@ -16,5 +16,14 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
 
+    // dropdown logic
+    $('li.dropdown-parents').on('click', function() {
+        if ($('.answer > p', this).hasClass('dropdown-hidden')) {
+            $('.answer > p', this).addClass('dropdown-visible').removeClass('dropdown-hidden');
+        } else {
+            $('.answer > p', this).addClass('dropdown-hidden').removeClass('dropdown-visible');
+        }
+    });
+
+});
