@@ -16,7 +16,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        top: 40px;
+        top: 0px;
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -32,26 +32,9 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-header {
-  background: #f5b335;
-  height: 40px;
-  position: fixed;
-  top: 0;
-  transition: top 0.2s ease-in-out;
-  width: 100%;
-}
 
-/*add this on scroll down*/
-.nav-up {
-  top: -40px; 
-}
-
-.nav-fix {
-  top: 0;
-}
 
 .vid-section {
-    height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
@@ -62,7 +45,6 @@ header {
 }
 
 .faq-section {
-    height: 100%;
     padding-top: 150px;
     /*text-align: center;*/
     background: #fff;
@@ -73,7 +55,6 @@ header {
 }
 
 .lesson-section {
-    height: 100%;
     padding-top: 150px;
     /*text-align: center;*/
     background: #fff;
@@ -95,7 +76,6 @@ header {
 }
 
 .resource-section {
-    height: 50%;
     padding-top: 150px;
     /*text-align: center;*/
     background: #fff;
@@ -103,7 +83,7 @@ header {
 
 .resource-section p {
   margin-left: 50px;
-  width: 800px;
+  /*width: 800px;*/
 }
 
 .sign-up-section {
