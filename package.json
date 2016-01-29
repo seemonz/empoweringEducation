@@ -1,0 +1,23 @@
+{
+  "name": "empowering-education",
+  "version": "1.0.0",
+  "description": "teset",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seemonz/empoweringEducation.git"
+  },
+  "author": "simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seemonz/empoweringEducation/issues"
+  },
+  "homepage": "https://github.com/seemonz/empoweringEducation#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
