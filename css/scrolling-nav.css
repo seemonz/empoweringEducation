@@ -84,6 +84,8 @@ html {
   padding: 5px;
   margin: 10px;
   transition: all 0.3s ease;
+  z-index: 1;
+  position: relative;
 }
 
 /*TODO fix hover and text box reveal to look nice. make sure lines are all equal */
